@@ -1,0 +1,102 @@
+#header {
+  background: url(../images/header.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#header .logo-icon {
+  width: 90px;
+  position: absolute;
+  left: 10px;
+  top: 0;
+  margin-bottom: 50px;
+}
+
+#header h1{
+  color:white;
+}
+
+#header h2 {
+    text-align: center;
+    color: white;
+}
+
+#header h2:hover{
+    text-decoration: none;
+}
+
+#product-nav {
+  text-align: center
+}
+
+#product-nav.pagination{
+  display: inline-block;
+}
+
+.white {
+  background-color: white;
+}
+
+h2#produk{
+    text-align: center;
+}
+
+
+ #map {
+        width: 100%;
+        height: 400px;
+        margin-top: 25px;
+      }
+
+.tshirt-outer-cards {
+    padding: 10px;
+}
+
+.tshirt-inner-cards {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.tshirt-outer-cards h2, .tshirt-outer-cards  p  {
+  text-align: center;
+}
+
+.tshirt-preview {
+    width: 100%;
+}
+
+.tshirt-inner-cards h2 {
+  font-size: 40px;
+}
+
+.tshirt-inner-cards p:first-of-type {
+  font-size: 35px;
+}
+
+.tshirt-inner-cards p:nth-of-type(2) {
+  font-size: 20px;
+}
+
+.dark-grey {
+  background-color: #828282;
+  color:white;
+}
+
+.dark-grey-arrow:after {
+  border-color: #828282 rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0);
+}
+
+#shop-local-address  {
+  font-size: 25px;
+  text-align: center;
+vertical-align: middle;
+width: 100%;
+margin-top: 25px;
+}
+
+.black {
+  background-color: black;
+}

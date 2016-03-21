@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "ISMA"
+date:   2016-02-06 15:08:10 -0500
+img: img/portfolio/isma.png
+modalID: modalIsma
+category: Design , Template
+---
+This is my first official web design work, it is for NGO group known as ISMA (the one i design is for the branch near Kota Kinabalu) , this is still ongoing project, nearly finish changing the mockup template into html, and after that i will need to encode it into Blogger xml.
+
+This project is built using Twitter Bootstrap Framework, but i tweak it to make it look match up with Isma's color shceme. I will write this in my blog, make sure to check it out later.

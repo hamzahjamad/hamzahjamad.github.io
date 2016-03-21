@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "PMB"
+date:   2016-02-05 15:08:10 -0500
+img: img/portfolio/office_pmb.png
+modalID: modalPMB
+category: Webapp
+---
+This is the simple Webapp i create to manage any Human Resource Management task at the small printing shop in Sandakan such as counting the payroll. The basic function is just to get timestamp when the staff check in and out from the shop, and calculate the overtime hour. After that the manager can easily look how many days does the staff has been working and can easily pay them. There are several function that i want to add, later on that.
+
+This work is based on Codeigniter and using a free template for front end design, I download it from DashGum - Free Dashboard. You may check the real work [here] [pmb-office-link] .
+
+[pmb-office-link]: http://perusahaanmajubersama.com/office/
