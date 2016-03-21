@@ -1,10 +1,10 @@
-#header {
+/*#header {
   background: url(../images/header.jpg) no-repeat center center; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 
 #header .logo-icon {
   width: 90px;
