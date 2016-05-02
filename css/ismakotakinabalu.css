@@ -159,7 +159,7 @@ header {
 }
 
 .mobile .date-outer {
-    margin-bottom: 10px !important;
+    margin-bottom: 65px !important;
 }
 
 .mobile .date-outer:last-child {
@@ -226,6 +226,8 @@ div.entry-content {
 
 .post-read-more {
   background-color: #ffcc00;
+      position: relative;
+    margin-top: -55px;
 }
 
 .post-read-more:hover {
