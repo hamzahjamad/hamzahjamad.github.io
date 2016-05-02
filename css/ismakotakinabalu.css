@@ -303,21 +303,3 @@ div.diamond:after {
   text-align: center;
 }
 
-
-footer {
-    background-color: black;
-    padding: 10px;
-}
-
-footer p {
-     text-align: center;
-     color: #8c8c8c;
-}
-
-footer .footer_isma {
-    color:#ffcc00;
-}
-
-footer .hamzahjamad {
-    color:#c9c9c9;
-}
