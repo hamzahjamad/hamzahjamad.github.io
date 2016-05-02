@@ -84,7 +84,14 @@ div#search-join-container {
     float:right;
     margin: auto;
     position: relative;
+    font-size: small;
 }
+
+.navbar-nav>li>a {
+    font-size: small;
+    font-weight: bold;
+}
+
 
 div.navbar-header div.search-box {
   float: right;
