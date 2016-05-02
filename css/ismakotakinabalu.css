@@ -228,6 +228,8 @@ div.entry-content {
   background-color: #ffcc00;
   margin-top:20px;
   margint-left:-5px;
+  position:relative;
+  margin-bottom: -70px;
 }
 
 .post-read-more:hover {
