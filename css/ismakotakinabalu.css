@@ -150,6 +150,18 @@ header {
     background: url('http://s27.postimg.org/m2h53zz83/Slider_ad_cover_03.jpg') no-repeat center #eee;
 }
 
+.blog-posts.hfeed {
+    padding: 10px;
+}
+
+.mobile .date-outer {
+    margin-bottom: 10px;
+}
+
+.mobile .date-outer:last-child {
+    margin-bottom: 10px;
+}
+
 #post-container {
   margin-bottom: 50px;
 }
