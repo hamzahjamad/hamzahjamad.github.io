@@ -155,11 +155,11 @@ header {
 }
 
 .mobile .date-outer {
-    margin-bottom: 10px;
+    margin-bottom: 10px !important;
 }
 
 .mobile .date-outer:last-child {
-    margin-bottom: 10px;
+    margin-bottom: 0 !important;
 }
 
 #post-container {
