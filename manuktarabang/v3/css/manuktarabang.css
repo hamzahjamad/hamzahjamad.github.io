@@ -1,0 +1,99 @@
+      /* IE10 viewport hack for Surface/desktop Windows 8 bug */
+              /*!
+               * IE10 viewport hack for Surface/desktop Windows 8 bug
+               * Copyright 2014-2015 Twitter, Inc.
+               * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+               */
+
+              /*
+               * See the Getting Started docs for more information:
+               * http://getbootstrap.com/getting-started/#support-ie10-width
+               */
+              @-webkit-viewport { width: device-width; }
+              @-moz-viewport    { width: device-width; }
+              @-ms-viewport     { width: device-width; }
+              @-o-viewport      { width: device-width; }
+              @viewport         { width: device-width; }
+
+
+              /* Custom styles for this template */
+              body {
+                padding-top: 50px;
+                background-color: #e2e2e2;
+              }
+
+
+              .homepage-item
+              {
+                text-align: center;
+              }
+
+              .homepage-item div p
+              {
+                font-size: 22px;
+              }
+
+              .main-content {
+                padding-top: 25px;
+                padding-bottom: 25px;
+              }
+
+              .main-content h2 {
+                font-size: 37px;
+                text-align: center;
+                margin-bottom: 25px;
+                font-family: 'Ubuntu', Arial, serif; 
+                font-weight: 700; 
+              }
+
+              .product-navigator {
+                float: none !important;
+                margin: 40px auto;
+              }
+
+              .about-us {
+                text-align: center;
+                font-size: large;
+              }
+
+              .post-date
+              {
+                text-align: center;
+              }
+
+              .post-image {
+                margin:18px 20px;
+              }
+
+              footer {
+                background-color: black;
+                color:white;
+                padding-top: 20px;
+                position:relative;
+                bottom:0;
+                width:100%;
+              }
+
+
+              .btn-manuktarabang {
+                color:white;
+                background-color: #7F5417;
+              }
+
+              .btn-manuktarabang:hover , .btn-manuktarabang.active {
+                color:white;
+                background-color: #512e01;
+              }
+
+              .footer-middle-in input[type="submit"], .zoom-icon .icon {
+                background: #7F5417;
+              }
+
+              .empty-space {
+                height: 50px;
+              }
+
+              .zoom-icon .glyphicon-menu-right {
+                background-color: #fff;
+                color: #7F5417;
+              }
