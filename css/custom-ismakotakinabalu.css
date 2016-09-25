@@ -181,7 +181,7 @@ div.entry-content {
   font-size:15px;
 }
 
-div.entry-content div div {
+div.entry-content div > div:nth-child(2) {
   margin: 50px;
 }
 
