@@ -181,8 +181,8 @@ div.entry-content {
   font-size:15px;
 }
 
-div.entry-content div > div:nth-child(2) {
-  margin: 50px;
+div.entry-content div > div {
+  margin: 10px;
 }
 
 .post-comment-button {
