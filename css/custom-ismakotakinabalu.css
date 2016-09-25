@@ -168,13 +168,14 @@ div.post-date {
   font-size: large;
   color: grey;
   margin-left: 10px;
+  text-shadow: 0px -1px 0px rgba(0,0,0,.5);
 }
 
 div.post-item {
   padding: 0 0 10px;
   margin-bottom: 5px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 3px;
   -webkit-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
@@ -199,8 +200,12 @@ div.entry-content div > div {
 .post-comment-button {
   background-color: grey;
   color:white;
+  border: grey;
   margin-right: 5px;
   margin-top:20px;
+    -webkit-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
 }
 
 .post-comment-button:hover {
@@ -218,8 +223,12 @@ div.entry-content div > div {
 
 .post-read-more {
   background-color: #ffcc00;
+  border: #ffcc00;
   margin-top:20px;
   margint-left:-5px;
+  -webkit-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
+  box-shadow: 0px 2px 19px -4px rgba(0,0,0,0.75);
 }
 
 .post-read-more:hover {
