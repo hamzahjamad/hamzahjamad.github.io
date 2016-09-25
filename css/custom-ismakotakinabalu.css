@@ -182,7 +182,7 @@ div.entry-content {
 }
 
 div.entry-content div div {
-  background-color: green;
+  margin: 50px;
 }
 
 .post-comment-button {
