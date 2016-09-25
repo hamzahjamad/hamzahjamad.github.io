@@ -163,7 +163,7 @@ div.post-date {
 }
 
 div.post-item {
-  padding: 1px 10px 10px;
+  padding: 1px 0 10px;
   margin-bottom: 5px;
   background-color: white;
   border-radius: 5px;
@@ -179,6 +179,7 @@ h3.entry-title {
 
 div.entry-content {
   font-size:15px;
+  margin:50px;
 }
 
 .post-comment-button {
