@@ -181,6 +181,10 @@ div.entry-content {
   font-size:15px;
 }
 
+div.entry-content div div {
+  background-color: green;
+}
+
 .post-comment-button {
   background-color: grey;
   color:white;
