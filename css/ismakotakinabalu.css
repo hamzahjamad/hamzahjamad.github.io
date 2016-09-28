@@ -302,3 +302,13 @@ div.diamond:after {
   text-align: center;
 }
 
+
+.feed-links {
+  visibility: hidden;
+}
+
+
+.blog-pager {
+  padding-right: 15px;
+  padding-left: 15px;
+}
