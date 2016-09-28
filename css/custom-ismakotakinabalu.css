@@ -322,3 +322,13 @@ footer .footer_isma {
 footer .hamzahjamad {
     color:#c9c9c9;
 }
+
+.feed-links {
+  visibility: hidden;
+}
+
+
+.blog-pager {
+  padding-right: 15px;
+  padding-left: 15px;
+}
