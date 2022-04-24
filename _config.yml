@@ -9,7 +9,7 @@
 title: Hamzah Jamad
 email: hamzahjamad@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Web Developer - Graphic Artist - User Experience Designer
+  Web Developer - Programmer - Tinkerer
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://hamzahjamad.github.io" # the base hostname & protocol for your site
 
@@ -19,10 +19,10 @@ github_username:  hamzahjamad
 facebook_username: hamzahjamad 
 
 # Address information
-address_street: "Jalan Airport , Mile 7"
-address_city: Sandakan
+address_street: "Jalan Istiadat, Kampung Likas"
+address_city: Kota Kinabalu
 address_state: Sabah
-address_zip: 90000
+address_zip: 88400
 
 # Build settings
 markdown: kramdown
