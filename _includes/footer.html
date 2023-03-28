@@ -3,12 +3,7 @@
     <div class="footer-above">
         <div class="container">
             <div class="row">
-                <div class="footer-col col-md-4">
-                    <h3>Location</h3>
-                    <p>{{ site.address_street }}
-                        <br>{{ site.address_city }}, {{ site.address_state }} {{ site.address_zip }}</p>
-                </div>
-                <div class="footer-col col-md-4">
+                <div class="footer-col col-md-offset-4 col-md-4">
                     <h3>Around the Web</h3>
                     <ul class="list-inline">
                         {% if site.facebook_username %}
@@ -28,22 +23,10 @@
                         {% endif %}
                     </ul>
                 </div>
-                <div class="footer-col col-md-4">
-                    <h3>About {{ site.title }}</h3>
-                    <p>I am the person you can hire when you are thinking about want to design your blog, webshop or company webapp.</p>
-                </div>
             </div>
         </div>
     </div>
-    <div class="footer-below">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    Copyright &copy; {{ site.title }} {{ site.time | date: "%Y" }}
-                </div>
-            </div>
-        </div>
-    </div>
+
 </footer>
 <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
 <div class="scroll-top page-scroll hidden-sm hidden-xs hidden-lg hidden-md">
