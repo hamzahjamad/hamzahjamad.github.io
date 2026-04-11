@@ -21,22 +21,25 @@
 # Site settings
 title: Hamzah Jamad
 email: hamzahjamad@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I wrote codes.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://hamzahjamad.github.io" # the base hostname & protocol for your site
+description: >
+  Full-stack developer. I build practical web apps with Laravel, Django, and JavaScript,
+  focusing on clear workflows and maintainable code.
+baseurl: ""
+# Canonical site URL (update if the custom domain is not wired up yet).
+url: "https://hamzahjamad.com"
+blog_url: "https://blog.hamzahjamad.com"
+# Used by the homepage script to show recent posts (REST API first, then RSS via rss2json).
+blog_rss_url: "https://blog.hamzahjamad.com/feed/"
+blog_feed_limit: 5
+blog_excerpt_max_chars: 220
+# Optional: https://rss2json.com improves rate limits if the blog REST request is blocked by CORS.
+# blog_rss2json_api_key: "your_key_here"
 
-# Social media profiles - feel free to add more here
 twitter_username: hamzahjamad
-github_username:  hamzahjamad
-facebook_username: hamzahjamad 
+github_username: hamzahjamad
+facebook_username: hamzahjamad
 
-
-# Build settings
 markdown: kramdown
-
-# Build settings
-theme: minima
 plugins:
   - jekyll-feed
 

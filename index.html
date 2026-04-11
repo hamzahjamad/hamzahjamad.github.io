@@ -1,3 +1,68 @@
 ---
 layout: default
+show_blog_feed: true
 ---
+<div class="wrap hero" id="top">
+  <div>
+    <p class="hero__eyebrow">Developer · Builder</p>
+    <h1>Hi, I’m {{ site.title | split: ' ' | first }}. I build with tech to make everyday work easier.</h1>
+    <p class="hero__lead">{{ site.description | strip }}</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="https://github.com/{{ site.github_username }}" rel="noopener noreferrer">
+        <i class="fa-brands fa-github" aria-hidden="true"></i>
+        GitHub
+      </a>
+      <a class="btn btn--ghost" href="#latest-posts">
+        <i class="fa-solid fa-newspaper" aria-hidden="true"></i>
+        Latest posts
+      </a>
+    </div>
+  </div>
+  <img class="hero__portrait" src="{{ '/img/profile.png' | relative_url }}" width="320" height="320" alt="">
+</div>
+
+<section
+  class="section wrap"
+  id="latest-posts"
+  aria-labelledby="latest-posts-heading"
+  aria-busy="true"
+>
+  <h2 class="section__title" id="latest-posts-heading">Latest from the blog</h2>
+  <div
+    id="blog-feed"
+    class="blog-feed"
+    role="region"
+    aria-live="polite"
+    data-rss-url="{{ site.blog_rss_url | xml_escape }}"
+    data-wp-json="{{ site.blog_url | append: '/wp-json/wp/v2/posts' | xml_escape }}"
+    data-limit="{{ site.blog_feed_limit | default: 5 }}"
+    data-excerpt-max="{{ site.blog_excerpt_max_chars | default: 220 }}"
+    {% if site.blog_rss2json_api_key %}data-rss2json-key="{{ site.blog_rss2json_api_key | xml_escape }}"{% endif %}
+  >
+    <p class="blog-feed__loading">
+      <i class="fa-solid fa-spinner fa-spin" aria-hidden="true"></i>
+      Loading recent posts…
+    </p>
+  </div>
+  <noscript>
+    <p class="blog-feed__noscript">
+      Enable JavaScript to load recent posts here, or
+      <a href="{{ site.blog_url }}">open the blog</a>.
+    </p>
+  </noscript>
+</section>
+
+<section class="section wrap" id="about" aria-labelledby="about-heading">
+  <h2 class="section__title" id="about-heading">About</h2>
+  <p class="section__subtitle">Full-stack developer focused on tools and workflows that save people time.</p>
+  <div class="prose">
+    <p>
+      I enjoy building applications that make day-to-day work easier. I am self-taught, from early days tweaking
+      Blogger templates through PHP, Java, and JavaScript, and now a lot of Python. Laravel and Django are my usual
+      launchpads for shipping ideas.
+    </p>
+    <p>
+      Prefer email? <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+    </p>
+  </div>
+</section>

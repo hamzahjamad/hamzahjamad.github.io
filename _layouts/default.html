@@ -1,31 +1,15 @@
 <!DOCTYPE html>
-<html>
-
-  {% include head.html %}
-
-  <body id="page-top" class="index">
-
-    {% include navbar.html %}
-
-    {% include header.html %}
-
-    {% comment %}
-      {% include portfolio.html %}
-    {% endcomment %}
-
-    {% include about.html %}
-
-    {% include contact.html %}
-
-
-    {% comment %}
-      {% include footer.html %}
-    {% endcomment %}
-
-    {% include modals.html %}
-
-    {% include javascript.html %}
-
-  </body>
-
+<html lang="en">
+{% include head.html %}
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {% include site-nav.html %}
+  <main id="main">
+    {{ content }}
+  </main>
+  {% include site-footer.html %}
+  {% if page.show_blog_feed %}
+  <script src="{{ '/js/blog-feed.js' | relative_url }}" defer></script>
+  {% endif %}
+</body>
 </html>

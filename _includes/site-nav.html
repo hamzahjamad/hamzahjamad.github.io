@@ -1,0 +1,12 @@
+<header class="site-nav">
+  <a class="site-nav__brand" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+  <nav aria-label="Primary">
+    <ul class="site-nav__links">
+      <li><a href="#latest-posts">Writing</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="https://github.com/{{ site.github_username }}" rel="noopener noreferrer">GitHub</a></li>
+      <li><a href="{{ site.blog_url }}" rel="noopener noreferrer">Blog</a></li>
+      <li><a class="site-nav__cta" href="mailto:{{ site.email }}"><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email</a></li>
+    </ul>
+  </nav>
+</header>

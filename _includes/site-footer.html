@@ -1,0 +1,25 @@
+<footer class="site-footer">
+  <div class="site-footer__inner">
+    <p class="site-footer__copy">&copy; {{ 'now' | date: '%Y' }} {{ site.title }}. Hosted on GitHub Pages.</p>
+    <ul class="site-footer__social">
+      {% if site.github_username %}
+      <li>
+        <a href="https://github.com/{{ site.github_username }}" aria-label="GitHub" rel="noopener noreferrer"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+      </li>
+      {% endif %}
+      <li>
+        <a href="{{ site.blog_url }}" aria-label="Blog" rel="noopener noreferrer"><i class="fa-solid fa-book-open" aria-hidden="true"></i></a>
+      </li>
+      {% if site.twitter_username %}
+      <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}" aria-label="Twitter" rel="noopener noreferrer"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+      </li>
+      {% endif %}
+      {% if site.facebook_username %}
+      <li>
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" aria-label="Facebook" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+      </li>
+      {% endif %}
+    </ul>
+  </div>
+</footer>
