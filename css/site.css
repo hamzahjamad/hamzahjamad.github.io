@@ -223,11 +223,17 @@ main {
 .hero__portrait {
   justify-self: center;
   width: min(280px, 70vw);
-  aspect-ratio: 1;
+  height: auto;
   border-radius: 50%;
-  object-fit: cover;
+  object-fit: contain;
   border: 3px solid var(--border);
   box-shadow: var(--shadow);
+}
+
+@media (max-width: 640px) {
+  .hero__portrait {
+    width: min(220px, 62vw);
+  }
 }
 
 @media (min-width: 900px) {
